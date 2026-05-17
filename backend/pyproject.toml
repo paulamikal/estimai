@@ -1,0 +1,15 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.136.1",
+    "langchain-groq>=1.1.2",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+    "resend>=2.30.1",
+    "sendgrid>=6.12.5",
+    "uvicorn>=0.47.0",
+]
